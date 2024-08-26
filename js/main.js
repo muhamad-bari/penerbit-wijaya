@@ -53,12 +53,26 @@
       "desc": "Buku Ajar Asuhan..",
       "harga": "Rp. 120.000"
     },
+    {
+      "image": "img/blog/blog12.png",
+      "link": "buku/picky.html",
+      "judul": "Buku Kesehatan, Anak, Picky Eater",
+      "desc": "Buku Kesehatan..",
+      "harga": "Rp. 80.000"
+    },
+    {
+      "image": "img/blog/blog13.png",
+      "link": "buku/nifas.html",
+      "judul": "Buku Ajar, Kebidanan, Nifas",
+      "desc": "Buku Ajar Asuhan..",
+      "harga": "Rp. 120.000"
+    },
 
 
 
   ]
   $(document).ready(function () {
-    $('.keranjang span').html(buku.length)
+
   })
   // meanmenu
 
@@ -591,7 +605,7 @@
                   <div class="blog-info text-center mb-30">
                       <div class="blog-body">
                           <span>${e.judul}</span>
-                          <h3><a href="buku/asuhankepjiwa.html">${e.desc}</a></h3>
+                          <h3><a href="${e.link}">${e.desc}</a></h3>
                           <p>${e.harga}</p>
                       </div>
                   </div>
