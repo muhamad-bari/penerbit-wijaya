@@ -67,6 +67,13 @@
       "desc": "Buku Ajar Asuhan..",
       "harga": "Rp. 120.000"
     },
+    {
+      "image": "img/blog/blog14.png",
+      "link": "buku/diabet.html",
+      "judul": "Buku Kesehatan, DM, Tatalaksana",
+      "desc": "Buku Kesehatan Dia..",
+      "harga": "Rp. 75.000"
+    }
 
 
 
